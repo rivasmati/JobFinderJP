@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=390">
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Zen+Kaku+Gothic+New:wght@500;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111;--paper:#fff;--g1:#f2f2f2;--g2:#d6d6d6;--g3:#7d7d7d;--red:#bc002d;--blue:#0b3d91}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:390px;height:844px;overflow:hidden;background:var(--paper);color:var(--ink);font:14px/1.35 "BIZ UDPGothic",sans-serif}
+header{height:56px;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+header b{font:900 15px "Zen Kaku Gothic New"}
+header span{background:#fff;color:var(--ink);padding:6px 10px;font-weight:700;font-size:12px;border-radius:3px}
+.tools{padding:12px 16px;background:var(--g1);border-bottom:1px solid var(--g2)}
+.search{background:#fff;border:1px solid var(--g2);padding:10px 12px;color:var(--g3);border-radius:4px;font-size:13px}
+.chips{display:flex;gap:6px;margin-top:8px;white-space:nowrap}
+.chips i{font-style:normal;background:#fff;border:1px solid var(--g2);padding:5px 10px;border-radius:4px;font-size:12px}
+.chips i.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+.count{padding:10px 16px 4px;font-size:12px;color:var(--g3)}
+.count b{color:var(--ink)}
+.line{position:relative;margin:0 16px 0 16px;padding-left:62px}
+.line:before{content:"";position:absolute;left:21px;top:0;bottom:0;width:6px;background:var(--ink)}
+.stop{position:relative;padding:14px 0;border-bottom:1px solid var(--g2)}
+.ring{position:absolute;left:-62px;top:14px;width:48px;height:48px;border-radius:50%;background:#fff;border:5px solid var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;font:900 10px/1 "Zen Kaku Gothic New"}
+.ring b{font-size:15px;font-variant-numeric:tabular-nums}
+.ring.red{border-color:var(--red)}
+.ring.old{border-style:dashed;border-color:var(--g3);color:var(--g3)}
+.stop h3{font:900 17px/1.2 "Zen Kaku Gothic New"}
+.stop .m{font-size:12px;color:#444;margin-top:1px}
+.row{display:flex;justify-content:space-between;align-items:baseline;margin-top:8px}
+.row b{font:900 21px "Zen Kaku Gothic New";font-variant-numeric:tabular-nums}
+.row small{font-size:11px;color:#555}
+.tags{margin-top:6px;display:flex;gap:6px;flex-wrap:wrap;font-size:11px}
+.tags i{font-style:normal;background:var(--g1);padding:2px 7px;border-radius:3px}
+.ok{margin-top:6px;font-size:12px;font-weight:700}
+.ok.w{color:var(--red)}
+.ex{position:absolute;right:0;top:8px;font-size:10px;color:var(--g3)}
+</style>
+<body>
+<header><b>Mapa de trabajos en Japón</b><span>Proponer lugar</span></header>
+<div class="tools"><div class="search">⌕ &nbsp;Nombre del lugar o ciudad</div>
+<div class="chips"><i class="on">Con alojamiento ×</i><i>Rubro ▾</i><i>¥ por hora ▾</i><i>Temporada ▾</i></div></div>
+<div class="count"><b>38 lugares</b> · más reciente primero</div>
+<div class="line">
+<div class="stop"><div class="ring red">H<b>17</b></div><h3>Shirakaba Lodge</h3><div class="m">Ski resort · Niseko, Hokkaido</div>
+<div class="row"><small>por hora · basado en 6 reseñas</small><b>¥1.150 – 1.300</b></div>
+<div class="tags"><i>Con alojamiento</i><i>Invierno</i><i>Japonés básico</i></div><div class="ok">✓ Activo · hace 3 semanas</div></div>
+<div class="stop"><div class="ring">N<b>09</b></div><h3>Pensión Yukiguni</h3><div class="m">Hotelería · Hakuba, Nagano</div>
+<div class="row"><small>por hora · basado en 4 reseñas</small><b>¥1.100 – 1.250</b></div>
+<div class="tags"><i>Con alojamiento</i><i>Invierno</i><i>Inglés intermedio</i></div><div class="ok">✓ Activo · hace 1 mes</div></div>
+<div class="stop"><div class="ring">H<b>31</b></div><h3>Granja Midori no Oka</h3><div class="m">Granja · Furano, Hokkaido</div>
+<div class="row"><small>por hora · basado en 1 reseña</small><b>¥1.050</b></div>
+<div class="tags"><i>Alojamiento: sin datos</i><i>Verano</i></div><div class="ok">✓ Activo · hace 2 meses</div></div>
+<div class="stop" style="border:0"><div class="ring old">O<b>04</b></div><h3>Umikaze Beach Resort</h3><div class="m">Resort de playa · Onna, Okinawa</div>
+<div class="row"><small>por hora · basado en 3 reseñas</small><b>¥1.000 – 1.150</b></div>
+<div class="ok w">! Se desconoce si sigue activo · hace 19 meses</div><div class="ex">Datos de ejemplo</div></div>
+</div>
+</body></html>

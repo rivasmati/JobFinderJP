@@ -19,6 +19,12 @@ delegated: el usuario delegó la elección en Claude (2026-10-10). Todavía no e
 - Clasificación de cada envío con IA antes de la aprobación manual.
 - Analíticas agregadas sin cookies; publicidad no personalizada.
 
+Decisiones del usuario (2026-10-31):
+
+- Publicación en un subdominio, sobre un hosting que el usuario ya tiene. Costo adicional: cero. Tipo de hosting confirmado: compartido con cPanel, PHP y MySQL (sin Node.js). Falta confirmar versión de PHP, acceso SSH y si permite Composer.
+- Sin gasto en IA de pago. La IA de moderación deja de ser obligatoria; ver la decisión de moderación en la sesión de stack.
+- El administrador trabaja desde una computadora, no desde el celular.
+
 ## Users
 
 Hispanohablantes (Argentina, Chile, Uruguay, España) con visa Working Holiday o de estudiante en Japón, o que investigan antes de aplicar. Buscan trabajo no formal y hoy dependen de grupos de WhatsApp y Facebook y de recomendaciones personales. Usan el sitio sobre todo desde el celular para decidir a dónde postularse y qué esperar ahí.
